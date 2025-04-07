@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.input {
+  margin: 1% 2% 1% 2%;
+  background: #0f0f0f;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  width: 125px;
+  font-style: italic;
+  min-height: 35px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  border-color: #fff;
+  box-shadow: 0 0 5px #fff;
+  outline: none;
+}
+
+.submitBtn {
+  background: #fff;
+  color: black;
+  width: 100%;
+  border: 1px solid gray;;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 1% 2% 1% 1%;
+  width: 98%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.submitBtn:hover {
+  border-color: #fff;
+  box-shadow: 0 0 5px #fff;
+  outline: none;
+}
+
+#version {
+  accent-color: #fff;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+#language {
+  appearance: none;
+  accent-color: #fff;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.newPrompt {
+  background: transparent;
+  color: white;
+  border: 2px solid gray;;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 1% 2% 1% 1%;
+  width: 98%;
+  height: 40px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.newPrompt:hover {
+  border-color: #fff;
+  box-shadow: 0 0 5px #fff;
+  outline: none;
+}
+
+.darkBtn {
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  height: 35px;
+}
+
+.BtnDrop {
+  background-color: #3d3c3c;
+}
+
+.fileLoader:hover {
+  background-color: #3d3c3c;
+}
+
+.fileLoaded {
+  background-color: #3d3c3c;
+}
+
+.code-box {
+  overflow-x: auto;      
+  overflow-y: hidden;            
+  max-width: 100%;          
+}
+
+.code-preview {
+  overflow-x: auto;
+  overflow-y: hidden; 
+  max-width: 100%;     
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Adjust width as needed */
+  height: 12px; /* Adjust height for horizontal scrollbars */
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Lighter thumb color */
+  border-radius: 12px; /* Rounded corners */
+  border: 2px solid #333; /* Border for better visibility */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #3d3c3c; 
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #3d3c3c; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 0px;
+  height: 0px;
+  border-radius: 12px;
+}
+
+.historyCard {
+  background-color: #3d3c3c;
+  color: white;
+  border-radius: 6px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  height: 90px;
+}
